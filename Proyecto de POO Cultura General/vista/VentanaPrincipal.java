@@ -17,8 +17,11 @@ public class VentanaPrincipal extends JFrame {
     //-------------------------
     public VentanaPrincipal(){
      //creacion de  la ventana
-    setTitle("TRAINER BRAIN");
-    setSize(800,400);   
+    this.setTitle("TRAINER BRAIN");
+    this.setSize(800,400); 
+    this.setLocationRelativeTo(null);
+    this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+    this.setVisible(true);  
     }
     
 }
